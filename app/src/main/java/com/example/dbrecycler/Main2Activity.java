@@ -36,5 +36,7 @@ public class Main2Activity extends AppCompatActivity {
 
         recyclerView.setAdapter(recyclerViewAdapter);
 
+        // is
+
     }
 }

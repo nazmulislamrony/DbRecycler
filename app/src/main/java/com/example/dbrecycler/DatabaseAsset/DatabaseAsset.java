@@ -70,7 +70,7 @@ public class DatabaseAsset extends SQLiteAssetHelper {
         if (cursor.moveToFirst()){
             do {
                 SecondStore secondStore=new SecondStore();
-                secondStore.setId(cursor.getInt(cursor.getColumnIndex("id")));
+                secondStore.setId(cursor.getInt(cursor.getColumnIndex("work")));
                 secondStore.setName(cursor.getString(cursor.getColumnIndex("name")));
                 secondStore.setContent(cursor.getString(cursor.getColumnIndex("content")));
 
